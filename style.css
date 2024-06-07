@@ -1,0 +1,102 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  margin: 0;
+}
+
+.calculatorContainer {
+  display: flex;
+  flex-direction: column;
+  border: 2px solid black;
+  background-color: rgb(150, 150, 150);
+  height: 700px;
+  width: 500px;
+  border-radius: 25px;
+  justify-content: center;
+  align-items: center;
+  gap: 5px;
+}
+
+.screen {
+  border: 2px solid black;
+  height: 200px;
+  width: 450px;
+  border-radius: 10px;
+  background-color: rgb(219, 219, 219);
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: column;
+  /* justify-content: space-around; */
+  gap: 20px;
+}
+
+.screenText {
+  /* border: 1px solid blue; */
+  text-align: end;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.result {
+  /* border: 2px solid green; */
+  text-align: end;
+  text-align: end;
+  font-size: 50px;
+  margin: 10px;
+}
+
+.buttonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 20px;
+}
+
+#clear {
+  background-color: rgb(255, 120, 120);
+}
+
+#delete {
+  background-color: rgb(135, 135, 255);
+}
+
+.clearButtonContainer {
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  margin-bottom: 20px;
+}
+
+.clearButton {
+  height: 40px;
+  width: 200px;
+  font-size: xx-large;
+}
+
+button {
+  border-radius: 5px;
+}
+
+.button {
+  height: 80px;
+  width: 100px;
+  font-size: xx-large;
+  transition: 0.25s;
+}
+
+.buttonColored {
+  transition: 0.25s;
+  height: 80px;
+  width: 100px;
+  font-size: xx-large;
+  background-color: rgb(184, 184, 184);
+}
+
+.mainButtonContainer {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
